@@ -1,0 +1,41 @@
+{
+    "Company":[
+    {
+        "Employee": {
+            "FirstName":"Tanmay",
+            "LastName":"Patil",
+            "ContactNo":1234567890,
+            "Email":"tanmaypatil@xyz.com",
+            "Adress":{
+                "City":"London",
+                "Zip":"560212"
+            },
+            "Chidren":[
+                {"Child":"Mark"},
+                {"Child":"Maria"},
+                {"Child":"Simone"}
+            ]
+        }
+    },
+    {
+        "Employee":{
+            "FirstName":"Steve",
+            "LastName":"Jobs",
+            "ContactNo":1234567890,
+            "Chidren":[
+                {"Child":"Mark"},
+                {"Child":"Maria"},
+                {"Child":"Simone"}
+            ]
+
+        }
+    }
+        
+    ]
+}
+
+// JSON je manje opširan od XML-a pošto u XML-u postoje početne i završne oznake.
+// JSON struktura je jednostavna i čitljiva. 
+// Jednostavnije je mapirannje objekata domene bez obzira s kojim programskim jezikom radimo.
+// Brži prijenos i procesiranje podataka.
+// JSON koristi objekte i nizove.
